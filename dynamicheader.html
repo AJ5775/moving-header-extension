@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dynamic Moving Header</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        overflow: hidden;
+    }
+    .marquee {
+        font-size: 28px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #0073b1;
+        animation: scroll 12s linear infinite;
+    }
+    @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+</style>
+</head>
+<body>
+<div class="marquee" id="headerText">Default Header</div>
+
+<script>
+// Grab header text from URL parameter ?text=
+const params = new URLSearchParams(window.location.search);
+const text = params.get('text');
+if (text) {
+    document.getElementById('headerText').innerText = decodeURIComponent(text);
+}
+</script>
+</body>
+</html>

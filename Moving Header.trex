@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest xmlns="http://www.tableau.com/xml/extension_manifest">
-  <Version>1.0</Version>
-  <Name>Moving Header</Name>
-  <Description>Dynamic moving header extension (POC).</Description>
-  <Publisher>Akshay POC</Publisher>
+<ExtensionManifest xmlns="http://tableau.com/api" version="1.0">
+  <Name>Moving Header Extension</Name>
+  <Description>Scrolling marquee header for Tableau dashboard</Description>
   <SourceLocation>
-    <!-- Change this URL if you host elsewhere (GitHub Pages, Netlify, etc.) -->
     <Url>https://aj5775.github.io/moving-header-extension/Moving%20Header.html</Url>
   </SourceLocation>
-  <Permissions>
-    <Permission>full data</Permission>
-  </Permissions>
+  <Icon>https://USERNAME.github.io/moving-header-extension/icon.png</Icon>
 </ExtensionManifest>
-

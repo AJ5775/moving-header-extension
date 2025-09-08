@@ -6,9 +6,10 @@
   <Publisher>Akshay POC</Publisher>
   <SourceLocation>
     <!-- Change this URL if you host elsewhere (GitHub Pages, Netlify, etc.) -->
-    <Url>D:\Tableau\Projects\Dhofar\Others\Moving Header Extentions</Url>
+    <Url>https://aj5775.github.io/moving-header-extension/Moving%20Header.html</Url>
   </SourceLocation>
   <Permissions>
     <Permission>full data</Permission>
   </Permissions>
 </ExtensionManifest>
+

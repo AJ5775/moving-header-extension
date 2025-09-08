@@ -3,7 +3,7 @@
   <Name>Moving Header Extension</Name>
   <Description>Scrolling marquee header for Tableau dashboard</Description>
   <SourceLocation>
-    <Url>https://aj5775.github.io/moving-header-extension/Moving%20Header.html</Url>
+    <Url>https://aj5775.github.io/moving-header-extension/MovingHeader.html</Url>
   </SourceLocation>
-  <Icon>https://USERNAME.github.io/moving-header-extension/icon.png</Icon>
+  <Icon>https://aj5775.github.io/moving-header-extension/icon.png</Icon>
 </ExtensionManifest>

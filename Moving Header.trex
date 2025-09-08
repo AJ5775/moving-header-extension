@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns="http://www.tableau.com/xml/extension_manifest">
+  <Version>1.0</Version>
+  <Name>Moving Header</Name>
+  <Description>Dynamic moving header extension (POC).</Description>
+  <Publisher>Akshay POC</Publisher>
+  <SourceLocation>
+    <!-- Change this URL if you host elsewhere (GitHub Pages, Netlify, etc.) -->
+    <Url>D:\Tableau\Projects\Dhofar\Others\Moving Header Extentions</Url>
+  </SourceLocation>
+  <Permissions>
+    <Permission>full data</Permission>
+  </Permissions>
+</ExtensionManifest>
